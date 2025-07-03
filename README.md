@@ -48,9 +48,18 @@
  - <b>Model Results:</b>
     - #1: All r^2 produced were negative, even when removing what I tried considering as outliers, so all models produced no better than general guesses
     - #2: R^2 got closer to the range of 0-1 when I removed outliers, but then RMSE as a 2nd metric skyrocketed to unsafe mine variances
-    - Question #1 Answer: It is inconclusive that "Anti-Vehicle Mines Destroyed" is impactful/predictive of Total Casualties
-    - Question #2 Answer: It is inconclusive that "Non-Anti Vehicle Mines Destroyed" is impactful/predictive of Total Casualties
-    - Question #3 Answer: Assuming due to the lack of Annual Data (ended in 2012), that the program could have captured misstated or inflated values/outliers, did not help produce better predictions for this dataset
+    - <b>Question #1:</b>
+      - Could a Country's representatives consider civilian/government casualties to increase the more Anti-Vehicle mines are cleared/destroyed?
+    - <b>Answer #1:</b>
+      - It is inconclusive that "Anti-Vehicle Mines Destroyed" is impactful/predictive of Total Casualties
+    - <b>Question #2:</b>
+      - Could a Country's representatives consider civilian/government casualties to increase the more Non-Anti Vehicle mines are cleared/destroyed?
+    - <b>Answer #2:</b>
+      - It is inconclusive that "Non-Anti Vehicle Mines Destroyed" is impactful/predictive of Total Casualties
+    - <b>Question #3:</b>
+      - This data halted capture in 2012, could a Country's representatives consider large/stockpile of either mine type destroyed to be abnormal scenarios, if they are considering to bring back this program, they could filter out these occurrences to better predict and decrease Total Casualties?
+    - <b>Answer #3:</b>
+      - Assuming due to the lack of Annual Data (ended in 2012), that the program could have captured misstated or inflated values/outliers, did not help produce better predictions for this dataset
  - <b>Conisderations:</b>
      - Assumption: If a mine is Destroyed, my assumption going in is accidental and intended destruction are included, clearly accidental destructions would cause more harm/casualties
      - Assumption: The destroyed mine dataset was not purely mines that were safely removed from their sqft area, and transported to a safe location to then destroy
