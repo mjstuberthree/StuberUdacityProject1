@@ -63,7 +63,7 @@
  - <b>Conisderations:</b>
      - Assumption: If a mine is Destroyed, my assumption going in is accidental and intended destruction are included, clearly accidental destructions would cause more harm/casualties
      - Assumption: The destroyed mine dataset was not purely mines that were safely removed from their sqft area, and transported to a safe location to then destroy
-     - Hindsight: Some of the distributions looked more logarithmic, so potentially a logistic regression would have been more appropriate
+     - Hindsight: Some of the distributions looked more logarithmic, so potentially a logarithmic regression would have been more appropriate
 
 ### <b>Acknowledgments:</b>
  - Google, as always was helpful with python/pandas documentation for code reminders and new bits I had not used prior for data cleaning.
